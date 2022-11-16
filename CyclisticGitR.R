@@ -115,3 +115,4 @@ bikerides %>%
 br <- as.data.frame(bikerides)
 ggplot(br, aes(x = day_of_week, y = as.numeric(average_duration), fill = member_casual)) +
   geom_col(position = "dodge")
+# Slight error persists
